@@ -242,3 +242,28 @@ svg {
   object-fit: cover; /* Keeps the image from getting squished */
   display: block;
 }
+
+.hero-banner__content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 1.5rem;
+  background: linear-gradient(to top, rgba(0,0,0,0.7), transparent);
+}
+
+.hero-banner__title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--bs-white);
+  text-decoration: none;
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.hero-banner__subtitle {
+  margin: 0;
+  font-size: 1rem;
+  display: flex;
+  gap: 1rem;
+}
